@@ -1,0 +1,131 @@
+/* Dark Mode Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #202124;
+    color: #e8eaed;
+}
+
+/* Top Navbar */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+.google-logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff; /* Google logo in white */
+    font-family: 'Product Sans', sans-serif;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-labs, .google-apps {
+    font-size: 14px;
+    cursor: pointer;
+    color: #bdc1c6;
+}
+
+.search-labs:hover, .google-apps:hover {
+    color: #ffffff;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #303134;
+    color: #ffffff;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #8ab4f8;
+    color: #202124;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #aecbfa;
+}
+
+/* Ads Section */
+.ads-container {
+    margin: 20px 0;
+    padding: 10px;
+    border-top: 1px solid #5f6368;
+}
+
+.ad {
+    background-color: #292a2d;
+    padding: 10px;
+    border-left: 4px solid #34a853;
+    margin-bottom: 10px;
+}
+
+.ad a {
+    font-weight: bold;
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+.ad .link {
+    color: #bdc1c6;
+    font-size: 14px;
+}
+
+/* Search Results */
+.results-container {
+    margin-top: 20px;
+}
+
+.result {
+    margin-bottom: 15px;
+}
+
+.result a {
+    font-size: 18px;
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+.result a:hover {
+    text-decoration: underline;
+}
+
+.result .link {
+    color: #bdc1c6;
+    font-size: 14px;
+}
+
+.result p {
+    font-size: 14px;
+    color: #e8eaed;
+}
